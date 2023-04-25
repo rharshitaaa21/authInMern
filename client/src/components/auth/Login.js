@@ -30,9 +30,9 @@ return (
               <i className="material-icons left">keyboard_backspace</i> Back to
               home
             </Link>
-            <div className="col s12" style={{ paddingLeft: "11.250px" }}>
+            <div className="col s12" >
               <h4>
-                <b>Login</b> below
+                <b>Please Login</b>
               </h4>
               <p className="grey-text text-darken-1">
                 Don't have an account? <Link to="/register">Register</Link>
@@ -59,14 +59,9 @@ return (
                 />
                 <label htmlFor="password">Password</label>
               </div>
-              <div className="col s12" style={{ paddingLeft: "11.250px" }}>
+              <div className="col s12" >
                 <button
-                  style={{
-                    width: "150px",
-                    borderRadius: "3px",
-                    letterSpacing: "1.5px",
-                    marginTop: "1rem"
-                  }}
+                  
                   type="submit"
                   className="btn btn-large waves-effect waves-light hoverable blue accent-3"
                 >

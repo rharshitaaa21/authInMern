@@ -30,13 +30,12 @@ return (
       <div className="container">
         <div className="row">
           <div className="col s8 offset-s2">
-            <Link to="/" className="btn-flat waves-effect">
-              <i className="material-icons left">keyboard_backspace</i> Back to
+            {/* <Link to="/" className="btn-flat waves-effect"> Back to
               home
-            </Link>
-            <div className="col s12" style={{ paddingLeft: "11.250px" }}>
+            </Link> */}
+            <div className="col s12" >
               <h4>
-                <b>Register</b> below
+                <b>Please Register</b> 
               </h4>
               <p className="grey-text text-darken-1">
                 Already have an account? <Link to="/login">Log in</Link>
@@ -83,14 +82,9 @@ return (
                 />
                 <label htmlFor="password2">Confirm Password</label>
               </div>
-              <div className="col s12" style={{ paddingLeft: "11.250px" }}>
+              <div className="col s12">
                 <button
-                  style={{
-                    width: "150px",
-                    borderRadius: "3px",
-                    letterSpacing: "1.5px",
-                    marginTop: "1rem"
-                  }}
+                  
                   type="submit"
                   className="btn btn-large waves-effect waves-light hoverable blue accent-3"
                 >
