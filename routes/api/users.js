@@ -3,10 +3,12 @@ const router = express.Router();
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 const keys = require("../../config/keys");
-// Load input validation
+
+
 const validateRegisterInput = require("../../validation/register");
 const validateLoginInput = require("../../validation/login");
-// Load User model
+
+
 const User = require("../../models/User");
 
 
@@ -46,12 +48,11 @@ router.post("/register", (req, res) => {
 
 
   // @route POST api/users/login
-// @desc Login user and return JWT token
-// @access Public
 router.post("/login", (req, res) => {
     // Form validation
   const { errors, isValid } = validateLoginInput(req.body);
-  // Check validation
+
+
     if (!isValid) {
       return res.status(400).json(errors);
     }
