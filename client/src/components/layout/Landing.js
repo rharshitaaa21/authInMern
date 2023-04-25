@@ -9,9 +9,9 @@ class Landing extends Component {
             <h4>
               <b>Welcome to 29Kreativ</b> {"   "}
             </h4>
-            <h3>To proceed further please click on LOGIN</h3>
+            <h3>To proceed further please click on <b>LOGIN</b> </h3>
           
-            <h6>If you don't have account pleawswe click of REGISTER</h6>
+            <h6>If you don't have account please click on <b>REGISTER</b></h6>
             <br />
             <div className="col s6">
               <Link
@@ -26,8 +26,7 @@ class Landing extends Component {
               <Link
                 to="/login"
                
-                className="btn btn-large waves-effect waves-light hoverable blue accent-3"
-              >
+                className="btn btn-large waves-effect waves-light hoverable blue accent-3">
                 Log In
               </Link>
             </div>
