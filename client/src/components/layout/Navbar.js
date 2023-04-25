@@ -8,10 +8,8 @@ class Navbar extends Component {
           <div className="nav-wrapper white">
             <Link
               to="/"
-              
               className="col s5 brand-logo center black-text"
             >
-
             </Link>
           </div>
         </nav>

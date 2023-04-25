@@ -3,27 +3,20 @@ import { Link } from "react-router-dom";
 class Landing extends Component {
   render() {
     return (
-      <div style={{ height: "75vh" }} className="container valign-wrapper">
+      <div  className="container valign-wrapper">
         <div className="row">
           <div className="col s12 center-align">
             <h4>
-              <b>Build</b> a login/auth app with the{" "}
-              <span style={{ fontFamily: "monospace" }}>MERN</span> stack from
-              scratch
+              <b>Welcome to 29Kreativ</b> {"   "}
             </h4>
-            <p className="flow-text grey-text text-darken-1">
-              Create a (minimal) full-stack app with user authentication via
-              passport and JWTs
-            </p>
+            <h3>To proceed further please click on LOGIN</h3>
+          
+            <h6>If you don't have account pleawswe click of REGISTER</h6>
             <br />
             <div className="col s6">
               <Link
                 to="/register"
-                style={{
-                  width: "140px",
-                  borderRadius: "3px",
-                  letterSpacing: "1.5px"
-                }}
+                
                 className="btn btn-large waves-effect waves-light hoverable blue accent-3"
               >
                 Register
@@ -32,12 +25,8 @@ class Landing extends Component {
             <div className="col s6">
               <Link
                 to="/login"
-                style={{
-                  width: "140px",
-                  borderRadius: "3px",
-                  letterSpacing: "1.5px"
-                }}
-                className="btn btn-large btn-flat waves-effect white black-text"
+               
+                className="btn btn-large waves-effect waves-light hoverable blue accent-3"
               >
                 Log In
               </Link>
